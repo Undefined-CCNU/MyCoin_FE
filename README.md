@@ -1,1 +1,1 @@
-# MyCoin_FE
+# MyCoin
