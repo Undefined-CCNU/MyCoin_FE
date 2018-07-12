@@ -7,7 +7,7 @@
             <span class="max">{{TotalExpend}}</span>
             <span class="word">元</span>
         </div>
-        <div v-if="this.flag" class="content">
+        <div v-if="this.flag" class="content bottom">
             <span class="word">其中</span>
             <span class="max">{{MaxClass}}</span>
             <span class="word">花费最多,共计</span>
@@ -57,7 +57,7 @@
                 tripWord:[ "哇!看起来是经常旅行的大佬", "一定是踏足世界了把!", "再来一次说走就走的旅行吧 0v0", "读万卷书不如行万里路"],
                 enterWord: ["浪浪浪起来!", "佛系少年,没有什么可以阻止我去耍~", "思考:今天玩点什么呢"],
                 clothesWord: [ "你一定是爱美的小姐姐/讲究的小哥哥", "你一定穿衣特有品~", "买买买,衣服什么的越多越好!"],
-                normalWord: ["1","2","3","4"]
+                normalWord: ["消费虽易，生活不易","你的生活真是多姿多彩呢","生活的各个方面都要”雨露均沾“呢","花最normal的钱，走最个性化的路！"]
             }
         },
         components: {
@@ -124,5 +124,8 @@
     text-align: center;
     margin-top: 20px;
     font-size: 26px;
+}
+.bottom {
+    margin-bottom: 50px;
 }
 </style>
