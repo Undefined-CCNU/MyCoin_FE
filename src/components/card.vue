@@ -96,7 +96,7 @@
   
         let currentDate = new Date();
         let currentMonth = currentDate.getMonth() + 1;
-        let currentDay = currentDate.getDay() + 1;
+        let currentDay = currentDate.getUTCDate();
         if (currentMonth > month || (currentMonth == month && currentDay > day)) {
           if (day == this.calendar[month]) {
             month++;
