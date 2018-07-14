@@ -8,8 +8,8 @@
           </div>
         </div>
         <div v-if="this.tip" class="tip">
-            <img class="picture" src="http://p688ihx0v.bkt.clouddn.com/coin.png">
-            <div class="text">该日没有消费喔~</div>
+          <img class="picture" src="http://p688ihx0v.bkt.clouddn.com/coin.png">
+          <div class="text">该日没有消费喔~</div>
         </div>
         <div class="entry-content">
           <ul>
@@ -245,14 +245,17 @@
   .price {
     background: #ffffff;
   }
+  
   .tip {
     width: 100%;
     margin: 30px auto;
   }
+  
   .picture {
     width: 40%;
     margin-top: 20px;
   }
+  
   .text {
     margin-top: 20px;
   }
